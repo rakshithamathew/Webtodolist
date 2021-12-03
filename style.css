@@ -1,0 +1,147 @@
+* {
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.h2 {
+  font-size: 50px;
+  margin-top: 120px;
+  margin-left: 210px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 120px;
+  margin-left: 210px;
+}
+span {
+  color: rgb(228, 70, 13);
+  text-align: center;
+  font-size: 20px;
+}
+.addlist {
+  font-size: 25px;
+  margin-right: 330px;
+  margin-top: -70px;
+  float: right;
+}
+.row {
+  margin: auto;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+.card {
+  box-shadow: 0 6px 8px gray;
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+  margin-left: 210px;
+  outline-style: solid;
+  outline-width: 0.3vh;
+  outline-color: rgb(228, 70, 13);
+}
+
+.card:hover {
+  box-shadow: 0 8px 4px 0 gray;
+}
+.container {
+  padding: 30px 40px;
+}
+
+.trip {
+  font-weight: 800;
+  font-size: 49px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: dashed;
+}
+.Back {
+  text-align: center;
+  font-size: 19px;
+}
+.center {
+  display: flex;
+  align-content: center;
+}
+.card2 {
+  box-shadow: 0 6px 8px gray;
+  transition: 0.3s;
+  border-radius: 5px;
+  position: relative;
+  width: 230px;
+  height: 300px;
+  margin-left: 40%;
+  outline-style: solid;
+  outline-width: 0.3vh;
+  outline-color: rgb(228, 70, 13);
+}
+
+.card2:hover {
+  box-shadow: 0 8px 4px 0 gray;
+}
+.blur {
+  filter: blur(7px);
+  -webkit-filter: blur(5px);
+}
+.popbox {
+  color: rgb(228, 70, 13);
+  outline-style: solid;
+  outline-width: 0.3vh;
+  outline-color: rgb(228, 70, 13);
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 28%;
+  height: 25%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 8px gray;
+  transition: 0.3s;
+}
+.rectangle {
+  outline-color: rgb(228, 70, 13);
+  border-radius: 5px 5px 5px 5px;
+  outline-style: solid;
+  outline-width: 0.3vh;
+  height: 30px;
+  width: 320px;
+  margin-left: 37px;
+}
+.button {
+  border-radius: 20px 20px 20px 20px;
+  height: 29px;
+  width: 65px;
+  background-color: rgb(228, 70, 13);
+  text-decoration-color: ivory;
+  margin-left: 160px;
+  margin-bottom: 30px;
+}
+.line {
+  text-decoration-line: line-through;
+  border: 1px solid gray;
+  width: 170px;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 24%;
+}
+
+.line2 {
+  text-decoration-line: line-through;
+  border: 1px solid gray;
+  width: 170px;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 62%;
+}
